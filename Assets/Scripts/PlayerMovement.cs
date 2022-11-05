@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody m_Rigidbody;
     Animator m_Animator;
 
+    string yejian = "laiyejian";
+
     AudioSource m_AudioSource;
     //用四元数表示3d游戏中的旋转 初始化，旋转角度为0
     Quaternion m_Rotation=Quaternion.identity;
